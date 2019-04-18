@@ -4,6 +4,8 @@
     <app-map></app-map>
     <app-what></app-what>
     <app-benefits></app-benefits>
+    <app-number></app-number>
+    <app-step></app-step>
     <app-tariff></app-tariff>
     <app-footer></app-footer>
   </div>

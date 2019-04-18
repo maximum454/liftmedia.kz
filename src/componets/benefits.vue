@@ -94,6 +94,7 @@
 
 <style scoped lang="scss">
     .benefits {
+        margin-bottom: 40px;
         .title{
             margin-bottom: 50px;
         }
