@@ -7,7 +7,7 @@
             </form>
             <div class="d-flex justify-content-between align-items-center mb-1">
                 <div class="map__num">150 жилых комплексов</div>
-                <div class="map__price"><span>Прайс-лист</span></div>
+                <a href="#" class="map__price"><span>Прайс-лист</span></a>
             </div>
             <div class="map__map">
                 <img src="../assets/map.jpg" alt="">
@@ -27,7 +27,7 @@
 
 <style scoped lang="scss">
     .map {
-        padding: 57px 0 40px;
+        padding: 57px 0;
         position: relative;
         &__num {
             color: #000;
@@ -38,13 +38,15 @@
         &__price {
             position: relative;
             padding-right: 23px;
-
+            color: #000;
+            text-decoration: none;
             &:after {
                 content: '';
                 position: absolute;
                 top: 0;
                 right: 0;
                 background-image: url("../assets/price.png");
+                background-size: 100%;
                 width: 17px;
                 height: 23px;
             }

@@ -42,6 +42,7 @@
             background-size: cover;
             width: 100%;
             height: 728px;
+            pointer-events: none;
         }
         p {
             font-size: 23px;

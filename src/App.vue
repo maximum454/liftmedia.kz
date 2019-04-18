@@ -38,7 +38,8 @@
     font-weight: bold;
   }
   h3{
-    font-size: 31px;
+    font-size: 37px;
+      font-weight: bold;
   }
   p{
     font-size: 14px;
