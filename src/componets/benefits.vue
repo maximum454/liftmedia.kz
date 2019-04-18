@@ -6,7 +6,7 @@
                 <span class="text-norm">Преимущества</span>
             </h2>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="img">
                             <img src="../assets/benefist-1.png" alt="">
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="img">
                             <img src="../assets/benefist-2.png" alt="">
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="img">
                             <img src="../assets/communication-tower.png" alt="">
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="img">
                             <img src="../assets/target.png" alt="">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="img">
                             <img src="../assets/fireworks.png" alt="">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <div class="img">
                             <img src="../assets/team.png" alt="">

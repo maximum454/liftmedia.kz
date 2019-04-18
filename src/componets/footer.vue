@@ -3,26 +3,26 @@
         <div class="container">
             <div class="bg"></div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-12">
                     <h2 class="text-light bg-success"><span class="text-norm">Контакты</span></h2>
                     <h3>Адрес</h3>
                     <p>г. Нур-Cултан<br>
                         ул. Кабанбай батыра, д. 6/2, оф.212</p>
 
                     <h3>Телефон</h3>
-                    <a href="#">+7(7172) 576-300</a><br>
-                    <a href="#">+ 7 700 310 0707 <img src="../assets/whatsapp.png" alt=""></a>
+                    <a href="tel:+77172576300">+7(7172) 576-300</a><br>
+                    <a href="tel:+77003100707">+ 7 700 310 0707 <img src="../assets/whatsapp.png" alt=""></a>
                     <div class="footer__price">
-                        <a href="#" class="price"><span>Прайс-лист</span></a>
+                        <a href="Lift-Media-2019.xlsx" class="price"><span>Прайс-лист</span></a>
                     </div>
                 </div>
                 <div class="w-100"></div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     <div class="logo">
                         <img src="../assets/lift-logo.svg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 text-right align-self-center">
+                <div class="col-lg-6 col-sm-6 text-right align-self-center">
                     &copy;&nbsp;2019 Lift Media. Все права защищены.
                 </div>
             </div>
@@ -107,6 +107,12 @@
 
             span {
                 border-bottom: 1px dashed;
+            }
+        }
+        @media (max-width: 868px){
+            .bg {
+                right: 0;
+                left: -286px;
             }
         }
     }

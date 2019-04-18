@@ -7,7 +7,7 @@
             </form>
             <div class="d-flex justify-content-between align-items-center mb-1">
                 <div class="map__num">150 жилых комплексов</div>
-                <a href="#" class="map__price"><span>Прайс-лист</span></a>
+                <a href="Lift-Media-2019.xlsx" class="map__price"><span>Прайс-лист</span></a>
             </div>
             <div class="map__map">
                 <img src="../assets/map.jpg" alt="">

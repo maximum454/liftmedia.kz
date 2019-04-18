@@ -1,10 +1,10 @@
 <template>
     <section class="tariff">
         <div class="container">
+            <div class="arrow"></div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-sm-4">
                     <h2 class="text-dark bg-light"><span class="text-norm">Тарифы</span></h2>
-                    <div class="arrow"></div>
                 </div>
                 <div class="col-lg-8">
                     <img src="../assets/table-tariff.png" alt="">
@@ -26,7 +26,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 37px 0;
-
+        .container{
+            position: relative;
+        }
         .arrow {
             position: absolute;
             bottom: 0;
@@ -34,6 +36,14 @@
             background-image: url("../assets/arrow-white.png");
             width: 52px;
             height: 216px;
+        }
+        @media (min-width: 768px){
+            .arrow {
+                position: absolute;
+                bottom: 0;
+                left: auto;
+                right: 0;
+            }
         }
     }
 </style>

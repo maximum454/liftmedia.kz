@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <app-nav></app-nav>
     <app-header></app-header>
     <app-map></app-map>
     <app-what></app-what>

@@ -2,7 +2,7 @@
     <section class="step">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-sm-12">
                     <h2>
                         <div class="text-light bg-success"><span class="text-norm">3 шага</span></div>
                         <br>
@@ -12,9 +12,9 @@
                     <div class="lift">
                         <img src="../assets/lift.png" alt="">
                     </div>
-                    <div class="arrow"></div>
+
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-sm-6">
                     <ul class="list-group">
                         <li>
                             <div class="step__step">1 шаг</div>
@@ -32,6 +32,7 @@
 
                 </div>
             </div>
+            <div class="arrow"></div>
         </div>
     </section>
 </template>
@@ -65,8 +66,8 @@
         }
         .lift{
             position: absolute;
-            top: 130px;
-            left: 250px;
+            top: 147px;
+            left: 276px;
         }
         .arrow{
             position: absolute;
@@ -78,6 +79,23 @@
         }
         .text-muted{
             color: #aeaeae;
+        }
+        @media (min-width: 768px){
+            padding: 50px 0 0;
+            .lift{
+                position: absolute;
+                top: 247px;
+                left: 360px;
+            }
+            .arrow{
+                position: absolute;
+                bottom: 0;
+                left: auto;
+                right: 0;
+                background-image: url("../assets/arrow.png");
+                width: 52px;
+                height: 216px;
+            }
         }
     }
 </style>
