@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-right align-self-center">
-                    &copy;&nbsp;2018 Lift Media. Все права защищены.
+                    &copy;&nbsp;2019 Lift Media. Все права защищены.
                 </div>
             </div>
         </div>

@@ -31,10 +31,10 @@
     font-size: 78px;
     line-height: 1;
     font-weight: bold;
-    margin-bottom: 53px;
+    margin-bottom: 58px;
   }
   h2{
-    font-size: 52px;
+    font-size: 63px;
     font-weight: bold;
   }
   h3{

@@ -71,11 +71,12 @@
         background-size: cover;
         padding: 14px 0 68px;
         .logo{
-            max-width: 220px;
-            margin-bottom: 67px;
+            max-width: 217px;
+            margin-bottom: 77px;
         }
         &__anons{
             font-size: 21px;
+            line-height: 1.3;
         }
         &__phone{
             position: absolute;
@@ -83,9 +84,9 @@
             right: 0;
             background-color: #fff;
             width: 100%;
-            max-width: 150px;
-            padding: 5px;
-            border-radius: 0 0 20px 20px;
+            max-width: 177px;
+            padding: 4px 5px;
+            border-radius: 0 0 16px 16px;
             text-align: center;
             color: #000;
         }

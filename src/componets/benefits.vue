@@ -1,6 +1,7 @@
 <template>
     <section class="benefits">
         <div class="container">
+            <div class="arrow"></div>
             <h2 class="title text-light bg-success">
                 <span class="text-norm">Преимущества</span>
             </h2>
@@ -95,6 +96,18 @@
 <style scoped lang="scss">
     .benefits {
         margin-bottom: 40px;
+        position: relative;
+        .container{
+            position: relative;
+        }
+        .arrow{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-image: url("../assets/benefist-arrow.png");
+            width: 52px;
+            height: 451px;
+        }
         .title{
             margin-bottom: 50px;
         }
@@ -115,10 +128,12 @@
         .name {
             font-size: 27px;
             font-weight: bold;
+            margin-bottom: 5px;
         }
 
         .anons {
             font-size: 16px;
+            line-height: 1.3;
         }
     }
 </style>

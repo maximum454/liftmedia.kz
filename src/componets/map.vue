@@ -12,6 +12,7 @@
             <div class="map__map">
                 <img src="../assets/map.jpg" alt="">
             </div>
+
         </div>
     </section>
 </template>
@@ -73,7 +74,7 @@
             max-width: 570px;
             width: 100%;
             margin: 0 auto;
-            padding: 18px 25px 18px 67px;
+            padding: 15px 25px 15px 67px;
             border-radius: 50px;
             box-shadow: 0 2px 14px rgba(#d7eef6, 8);
             &:before{
