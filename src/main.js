@@ -8,8 +8,10 @@ import AppBenefits from './componets/benefits';
 import AppNumber from './componets/number';
 import AppStep from './componets/step';
 import AppTariff from './componets/tariff';
-
 import AppFooter from './componets/footer';
+
+import map from './custom_search';
+
 
 Vue.component('AppNav', AppNav);
 Vue.component('AppHeader', AppHeader);

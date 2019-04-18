@@ -10,7 +10,7 @@
                 <a href="Lift-Media-2019.xlsx" class="map__price"><span>Прайс-лист</span></a>
             </div>
             <div class="map__map">
-                <img src="../assets/map.jpg" alt="">
+                <div id="map"></div>
             </div>
 
         </div>
@@ -35,7 +35,9 @@
             font-size: 21px;
             font-weight: bold;
         }
-
+        #map {
+            width: 100%; height: 350px; padding: 0; margin: 0;
+        }
         &__price {
             position: relative;
             padding-right: 23px;
