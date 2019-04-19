@@ -65,8 +65,8 @@
            font-size: 23px;
         }
         .lift{
-            position: absolute;
-            top: 147px;
+            position: relative;
+            top: -60px;
             left: 276px;
         }
         .arrow{
@@ -80,12 +80,12 @@
         .text-muted{
             color: #aeaeae;
         }
-        @media (min-width: 768px){
+        @media (max-width: 768px){
             padding: 50px 0 0;
             .lift{
                 position: absolute;
-                top: 247px;
-                left: 360px;
+                top: 230px;
+                left: 350px;
             }
             .arrow{
                 position: absolute;
