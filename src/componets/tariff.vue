@@ -45,5 +45,13 @@
                 right: 0;
             }
         }
+        @media (max-width: 376px){
+            .arrow {
+                display: none;
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+        }
     }
 </style>

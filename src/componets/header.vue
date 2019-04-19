@@ -12,8 +12,9 @@
                         в лифтах
                     </h1>
                     <p class="header__anons">
-                        Размещение рекламы на мониторах в лифтах<br> жилых домов, премиум и бизнес класса /<br> в
-                        деловых центрах категории А+
+                        Размещение рекламы на&nbsp;мониторах в&nbsp;лифтах
+                        жилых домов, премиум и&nbsp;бизнес класса /
+                        в&nbsp;деловых центрах категории&nbsp;А+
                     </p>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -66,7 +67,7 @@
         background-position: center top;
         background-size: cover;
         padding: 120px 0 68px;
-
+        overflow: hidden;
         &__anons {
             font-size: 21px;
             line-height: 1.3;
@@ -98,19 +99,42 @@
                 z-index: 10;
             }
         }
-
-        .fa-phone {
-            display: inline-block;
-            margin-right: 4px;
-            background-image: url("../assets/fa-phone.png");
-            width: 16px;
-            height: 22px;
-        }
         .close{
             position: absolute;
             top: -30px;
             right: 0;
             color: #fff;
+        }
+        @media (max-width: 376px){
+            &__anons {
+                font-size: 16px;
+            }
+            &__play {
+                color: #fff;
+                position: relative;
+                align-self: center;
+                margin-top: 140px;
+                margin-left: 0;
+                cursor: pointer;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: -192px;
+                    left: 54px;
+                    background-image: url("../assets/play-tv.png");
+                    width: 344px;
+                    height: 290px;
+                    z-index: 0;
+                }
+
+                p {
+                    position: relative;
+                    font-size: 16px;
+                    line-height: 18px;
+                    z-index: 10;
+                }
+            }
         }
     }
 </style>

@@ -97,5 +97,26 @@
                 height: 216px;
             }
         }
+        @media (max-width: 376px){
+            .lift{
+                display: none;
+            }
+            .list-group{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li{
+                    margin-bottom: 25px;
+                }
+                p{
+                    color: #000;
+                    font-size: 24px;
+                    line-height: 1.2;
+                }
+            }
+            .arrow{
+                display: none;
+            }
+        }
     }
 </style>

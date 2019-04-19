@@ -33,6 +33,7 @@
         &__num {
             color: #000;
             font-size: 21px;
+            line-height: 1;
             font-weight: bold;
         }
         #map {
@@ -43,6 +44,7 @@
             padding-right: 23px;
             color: #000;
             text-decoration: none;
+            flex-shrink: 0;
             &:after {
                 content: '';
                 position: absolute;
@@ -106,6 +108,33 @@
             text-transform: uppercase;
             font-size: 12px;
             font-weight: bold;
+        }
+        @media (max-width: 376px){
+            &__form {
+                position: absolute;
+                top: -35px;
+                left: 0;
+                right: 0;
+                display: flex;
+                align-items: center;
+                background-color: #fff;
+                max-width: 570px;
+                width: 100%;
+                margin: 0 auto;
+                padding: 10px 10px 10px 47px;
+                border-radius: 50px;
+                box-shadow: 0 2px 14px rgba(#d7eef6, 8);
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 25px;
+                    transform: translate(0,-50%);
+                    background-image: url("../assets/search.svg");
+                    width: 20px;
+                    height: 21px;
+                }
+            }
         }
     }
 </style>

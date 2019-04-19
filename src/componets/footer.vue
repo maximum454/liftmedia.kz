@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="w-100"></div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-lg-6 col-sm-6 mb-xs-3">
                     <div class="logo">
                         <img src="../assets/lift-logo.svg" alt="">
                     </div>
@@ -113,6 +113,19 @@
             .bg {
                 right: 0;
                 left: -286px;
+            }
+        }
+        @media (max-width: 376px){
+            .bg {
+                display: none;
+            }
+            .logo{
+                margin-bottom: 30px;
+            }
+            p, a {
+                color: #000;
+                font-size: 18px;
+                text-decoration: none;
             }
         }
     }

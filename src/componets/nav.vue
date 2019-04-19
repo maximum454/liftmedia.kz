@@ -53,5 +53,31 @@
         font-size: 16px;
         border-bottom: 2px solid ;
     }
+    .fa-phone {
+        display: inline-block;
+        margin-right: 4px;
+        background-image: url("../assets/fa-phone.png");
+        background-size: 100%;
+        width: 16px;
+        height: 22px;
+    }
+    @media (max-width: 376px){
+        .logo{
+            max-width: 140px;
+        }
+        &__phone{
+            max-width: 130px;
+        }
+        .phone-num{
+            font-size: 20px;
+        }
+        .phone-text{
+            font-size: 13px;
+        }
+        .fa-phone {
+            width: 13px;
+            height: 18px;
+        }
+    }
 }
 </style>

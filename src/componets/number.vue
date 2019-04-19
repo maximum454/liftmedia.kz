@@ -61,6 +61,8 @@
                     left: 0;
                     transform: translate(0, -50%);
                     background-image: url("../assets/list.png");
+                    background-repeat: no-repeat;
+                    background-size: 100%;
                     width: 53px;
                     height: 34px;
                 }
@@ -86,6 +88,33 @@
                 text-align: left;
                 font-size: 91px;
                 font-weight: bold;
+            }
+        }
+        @media (max-width: 376px){
+            &__list {
+                li {
+                    padding-left: 40px;
+                    &:before {
+                        width: 30px;
+                        height: 20px;
+                    }
+                }
+                .name {
+                    font-size: 20px;
+                    max-width: 170px;
+                }
+
+                .line {
+                    display: none;
+                }
+                .num {
+                    flex-shrink: 0;
+                    width: 80px;
+                    padding-left: 10px;
+                    text-align: left;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
             }
         }
     }

@@ -135,5 +135,14 @@
             font-size: 16px;
             line-height: 1.3;
         }
+        @media (max-width: 376px){
+            margin-bottom: 20px;
+            .arrow{
+                display: none;
+            }
+            .name {
+                font-size: 22px;
+            }
+        }
     }
 </style>
