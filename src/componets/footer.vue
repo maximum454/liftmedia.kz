@@ -32,7 +32,7 @@
 
 <script>
     export default {
-        name: "footerbar"
+        name: "footer"
     }
 </script>
 

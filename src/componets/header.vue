@@ -49,7 +49,7 @@
 
 <script>
     export default {
-        name: 'headerbar',
+        name: 'header',
         data() {
             return {}
         }
